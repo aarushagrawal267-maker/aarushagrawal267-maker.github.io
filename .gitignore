@@ -1,0 +1,11 @@
+# never commit credentials or local tooling (Jekyll skips dotfiles, so this is not published)
+.env
+.env.*
+*.pem
+*.key
+client_secret*.json
+node_modules/
+.venv/
+venv/
+__pycache__/
+.DS_Store
